@@ -36,7 +36,7 @@ items[2].style.backgroundColor='#3a5311';
 // }
 for(var i=0;i<items.length;i++){
     items[i].style.fontWeight='bold';
-    hellokqjdnlncli
+    
     
 }
 
