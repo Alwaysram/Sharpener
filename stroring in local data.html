@@ -45,7 +45,17 @@
             parentELem.removeChild(childElem)
 
         }
+        const editButton = document.createElement('input')
+        editButton.type = "button"
+        editButton.value="edit"
+        editButton.onclick = () => {
+            localStorage.removeItem(obj.email)
+            parentELem.removeChild(childElem)
+
+        }
+        
         childElem.appendChild(deleteButton)
+        childElem.appendChild(editButton)
         parentElem.appendChild(childElem);
       }
     </script>
