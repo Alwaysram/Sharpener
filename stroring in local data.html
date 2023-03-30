@@ -25,6 +25,16 @@
             localStorage.setItem('name',name);
             localStorage.setItem('email',email);
             localStorage.setItem('phoneNumber',phoneNumber);
+            const name_serialized = JSON.stringify(name);
+            localStroage.setItem("name",name_serialized);
+            console.log(localStroage);
+            const email_serialized = JSON.stringify(email);
+            localStroage.setItem("email",email_serialized);
+            console.log(localStroage);
+            const phoneNumber_serialized = JSON.stringify(email);
+            localStroage.setItem("phoneNumber",phoneNumber_serialized);
+            console.log(localStroage);
+
 
         }
 
