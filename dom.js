@@ -71,10 +71,10 @@
 // var lastItem = document.querySelector('.list-group-item:last-child');
 // lastItem.style.color='green';
 
-var secondItem = document.querySelector('.list-group-item:nth-child(2)');
-secondItem.style.color='green';
-var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
-thirdItem.style.color='rgba(255,0,0,0)';
+// var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+// secondItem.style.color='green';
+// var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+// thirdItem.style.color='rgba(255,0,0,0)';
 
 
 // // //querySelectorForAll/
@@ -82,14 +82,16 @@ thirdItem.style.color='rgba(255,0,0,0)';
 // console.log(titles);
 // titles[0].textContent ='Hello';
 
-// var odd= document.querySelectorAll('li:nth-child(odd)');
+ var odd= document.querySelectorAll('li:nth-child(odd)');
 // var even= document.querySelectorAll('li:nth-child(even)');
-// for(var i=0; i<odd.length;i++){
-//     odd[i].style.backgroundColor = '#f4f4f4';
+ for(var i=0; i<odd.length;i++){
+   odd[i].style.backgroundColor = 'green';
+ }
 //     even[i].style.backgroundColor = '#ccc';
 // }
 
-
+var even= document.querySelectorAll('li:nth-child(even)');
+even[0].style.color='green';
 
 
 
